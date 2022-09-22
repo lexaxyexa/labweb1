@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    height: 100%;
+
+}
+.header{
+    background-color: green;
+    display: block;
+    text-align: center;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    display: block;
+    background-color: blue;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px 10px 20px;
+}
+.infa h1{
+    margin-top: 0;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    color: red;
+}
+.list1 h2 {
+    word-spacing: 13px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+#square {
+    width: 100px;
+    height: 100px;
+    border: solid 4px white;
+    float:left;
+    margin: 0px 15px 20px 0px;
+    border-radius: 15px 0px;
+}
+.list1 ul {
+    margin-top: 0px;
+}
+.list1 li {
+    margin-bottom: 11px;
+}
+.list2 ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.list2 li {
+    margin-bottom: 13px;
+}
+.list2 ul>li:last-child {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+table {
+    width: 150px;
+    height: 100px;
+    display: table;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    border-spacing: 3px;
+    border-collapse: separate;
+    text-align: center;
+}
+table td, th {
+    border: solid 1px #ccc;
+}
+#picture {
+    margin-top: 10px;
+}
+.konec {
+    display:flex;
+    justify-content: space-between;
+}
+.list2 h3 {
+    margin-top:0px;
+    margin-bottom: 9px;
+}
+#picture {
+    float: right
+}
+.footer{
+    background-color: green;
+    display: block;
+    text-align: center;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
